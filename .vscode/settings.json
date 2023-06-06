@@ -1,0 +1,42 @@
+{
+    "editor.codeActionsOnSave": {
+        "source.fixAll.eslint": true,
+        "source.organizeImports": true,
+    },
+    // prettier extension setting
+    "editor.formatOnSave": true,
+    "editor.formatOnType": true,
+    "editor.formatOnPaste": true,
+    
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[typescriptreact]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "[vue]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode"
+    },
+    "prettier.configPath": ".prettierrc",
+    "cSpell.words": [
+        "aboutfishing",
+        "apexchart",
+        "apexcharts",
+        "autoresize",
+        "Echart",
+        "echarts",
+        "navers",
+        "uuidv",
+        "xaxis",
+        "xsmall",
+        "Yaxis"
+    ],
+    "typescript.preferences.importModuleSpecifier": "project-relative",
+    "vetur.validation.template": false
+}
